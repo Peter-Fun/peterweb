@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang = "en" class="sm:scroll-smooth">
+<html lang = "en" class="sm:scroll-smooth font-Nunito">
     <head>
         <meta name="viewport" content = "width=device-width, initial-scale=1.0">
         <title>Testing Website</title>
         <link rel="stylesheet" href = 'css/style.css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap"rel="stylesheet"/>
         <script src = "page.js"></script>
     </head>
     <body class = "min-h-screen bg-gradient-to-t from-sky-100 via-emerald-100 to-purple-100 text-black">
@@ -14,7 +17,7 @@
                     Peter Xiao
                 </h1>
                 <div>
-                    <nav class="sm:block space-x-8 text-xl" aria-label="main">
+                    <nav class="sm:block space-x-8 text-xl text-center" aria-label="main">
                         <a href="#"
                         onclick="loadPage('home.html')"
                         class="hover:text-cyan-600">Home</a>
@@ -26,6 +29,9 @@
                         <a href="#"
                         onclick="loadPage('projects.html')"
                         class="hover:text-cyan-600">Projects</a>
+
+                        <a href="https://github.com/Peter-Fun" target="_blank"><img width=28 height=28 src="imgs/github-mark.png" class = "float-right hover:scale-125"></a>
+
                     </nav>
                 </div>
             </section>
