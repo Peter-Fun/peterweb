@@ -13,6 +13,6 @@ Website Content:
         Using math modeling techniques to analyze various datasets regarding traffic data to come up with an optimal traffic flow method in different scenarios.
 
         This!
-        Using my previous knowledge of HTML and CSS to combine with new languages and platforms I'm learning to create a website
+        Using my previous knowledge of HTML and CSS and Javascript to combine with new languages and platforms I'm learning to create a website.
 
     
