@@ -15,5 +15,8 @@ jobs:
       - name: Install Netlify CLI
         run: npm install -g netlify-cli
 
+      - name: Link to My Site
+        run: netlify link --name petertest
+        
       - name: Deploy to Netlify
-        run: netlify deploy --site petertest --prod --dir=public --message="Auto deploy from GitHub"
+        run: netlify deploy --prod --dir=public --message="Auto deploy from GitHub"
