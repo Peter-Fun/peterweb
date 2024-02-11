@@ -16,4 +16,4 @@ jobs:
         run: npm install -g netlify-cli
 
       - name: Deploy to Netlify
-        run: netlify deploy --prod --dir=public --message="Auto deploy from GitHub"
+        run: netlify deploy --site petertest --prod --dir=public --message="Auto deploy from GitHub"
