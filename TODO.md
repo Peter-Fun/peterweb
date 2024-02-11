@@ -1,0 +1,16 @@
+Website Content:
+    Home
+        Hey everyone! Welcome to my website! I'm Peter Xiao, a sophomore at Montgomery Blair High School. Feel free to look at my About page to learn more about me or check out of the projects I'm working on in my Projects page.
+    About
+        My name is Peter Xiao, and I'm currently a sophomore in Montgomery Blair High School's STEM Magnet Program. I'm interested in working with computer science, cybersecurity, and math. Recently, I've also specifically done more work with AI and math modeling. Check out my Projects page if you want to see more! Outside of academics, I enjoy playing video games, chess, guitar, golf, and karate.
+    Projects
+        War Prediction from News Article Sentiment Analysis
+        Using a language model to create embeddings of news articles for a temporal model to use to predict probability of war and conflict.
+
+        Urban Traffic Flow Optimization
+        Using math modeling techniques to analyze various datasets regarding traffic data to come up with an optimal traffic flow method in different scenarios.
+
+        This!
+        Using my previous knowledge of HTML and CSS to combine with new languages and platforms I'm learning to create a website
+
+    
