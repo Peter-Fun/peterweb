@@ -1,5 +1,5 @@
 {
-  "name": "testweb",
+  "name": "peterweb",
   "version": "1.0.0",
   "description": "",
   "main": "tailwind.config.js",
@@ -9,16 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Peter-Fun/testweb.git"
+    "url": "git+https://github.com/Peter-Fun/peterweb.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Peter-Fun/testweb/issues"
+    "url": "https://github.com/Peter-Fun/peterweb/issues"
   },
-  "homepage": "https://github.com/Peter-Fun/testweb#readme",
+  "homepage": "https://github.com/Peter-Fun/peterweb#readme",
   "devDependencies": {
     "prettier-plugin-tailwindcss": "^0.5.11"
-  }
+  },
+  "dependencies": {}
 }
