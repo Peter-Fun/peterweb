@@ -544,8 +544,16 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .sticky {
   position: sticky;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .top-0 {
@@ -585,12 +593,123 @@ video {
   min-height: 100vh;
 }
 
-.max-w-4xl {
-  max-width: 56rem;
+.w-full {
+  width: 100%;
+}
+
+.max-w-5xl {
+  max-width: 64rem;
 }
 
 .max-w-7xl {
   max-width: 80rem;
+}
+
+@keyframes content_intro {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.animate-content_intro {
+  animation: 1s content_intro ease both;
+}
+
+@keyframes left_intro {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.animate-left_intro {
+  animation: 1s left_intro ease both;
+}
+
+@keyframes right_intro {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+    top: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.animate-right_intro {
+  animation: 1s right_intro ease 2.5s both;
+}
+
+@keyframes content_intro {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.animate-startup_intro {
+  animation: 2s content_intro ease 3.5s both;
+}
+
+@keyframes top_intro {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-top1_intro {
+  animation: 0.5s top_intro ease 1s both;
+}
+
+@keyframes top_intro {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-top2_intro {
+  animation: 0.5s top_intro ease 1.5s both;
+}
+
+@keyframes top_intro {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-top3_intro {
+  animation: 0.5s top_intro ease 2s both;
 }
 
 .flex-col-reverse {
@@ -627,6 +746,10 @@ video {
   border-bottom-width: 2px;
 }
 
+.border-t-2 {
+  border-top-width: 2px;
+}
+
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -640,6 +763,11 @@ video {
 .bg-purple-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 232 255 / var(--tw-bg-opacity));
+}
+
+.bg-sky-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 242 254 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-t {

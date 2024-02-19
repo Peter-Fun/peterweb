@@ -1,4 +1,17 @@
-Website Content:
+Animations:
+    Startup:
+        Dino and box crash into each other, forms dinobox
+        Falls to the top of the footer
+        User clicks the box, it rumbles before bursts and showing the home page
+    Between:
+        Dinobox opens and sucks in the current content
+        Spews out the content of the wanted page
+    Click the dinobox:
+        Dinobox opens and engulfs the website
+        Black background, shows the whole team
+        Exiting, reverse the animation
+
+Website Content: (Finished pretty much)
     Home
         Hey everyone! Welcome to my website! I'm Peter Xiao, a sophomore at Montgomery Blair High School. Feel free to look at my About page to learn more about me or check out of the projects I'm working on in my Projects page.
 

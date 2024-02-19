@@ -12,36 +12,45 @@
     <body class = "min-h-screen bg-gradient-to-t from-sky-100 via-emerald-100 to-purple-100 text-black">
         <!--Need to add navigation bar-->
         <header class="bg-purple-100 text-black sticky border-b-2 border-black top-0 z-10">
-            <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
-                <h1 class = "text-3xl font-medium">
+            <section class="max-w-5xl mx-auto p-4 flex justify-between items-center">
+                <h1 class = "text-3xl font-medium animate-left_intro">
                     Peter Xiao
                 </h1>
                 <div>
                     <nav class="sm:block space-x-8 text-xl text-center" aria-label="main">
                         <a href="#"
                         onclick="loadPage('home.html')"
-                        class="hover:text-cyan-600">Home</a>
-
+                        class="hover:text-cyan-600 animate-top1_intro">Home</a>
                         <a href="#"
                         onclick="loadPage('about.html')"
-                        class="hover:text-cyan-600">About</a>
+                        class="hover:text-cyan-600 animate-top2_intro">About</a>
 
                         <a href="#"
                         onclick="loadPage('projects.html')"
-                        class="hover:text-cyan-600">Projects</a>
+                        class="hover:text-cyan-600 animate-top3_intro">Projects</a>
 
-                        <a href="https://github.com/Peter-Fun" target="_blank"><img width=28 height=28 src="imgs/github-mark.png" class = "float-right hover:scale-125"></a>
+                        <a href="https://github.com/Peter-Fun" target="_blank" class = "animate-right_intro"><img width=28 height=28 src="imgs/github-mark.png" class = "float-right hover:scale-125 animate-right_intro"></a>
 
                     </nav>
                 </div>
             </section>
         </header> 
         <!--Content corresponding to clicked section-->
-        <div id = "Content" class = "max-w-7xl mx-auto"></div>
+        <div id = "Content" class = "max-w-7xl mx-auto animate-startup_intro"></div>
 
         <!--Need to add Footer-->
+        <footer id = "footer" class="w-full fixed p-4 bg-sky-100 mx-auto bottom-0 border-t-2 border-black">
+            <section class="max-w-5xl mx-auto flex justify-between">
+                <h2 class = "animate-left_intro">Made By Peter Xiao</h2>
+                <!--Dinobox here maybe-->
+                <address class="animate-right_intro">
+                    Email: <a href="mailto:peterxiaofun@gmail.com" class = "hover:text-cyan-600">peterxiaofun@gmail.com</a>
+                </address>
+            </section>
+
+        </footer>
     </body>
     <script>
-        onload(loadPage('home.html'));
+        loadPage('home.html');
     </script>
 </html>
