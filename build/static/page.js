@@ -1,3 +1,41 @@
+/*
+70 px from top - header bottom
+
+58 px from bottom - footer top
+
+gsap.registerPlugin(ScrollTrigger);
+gsap.from(".content", {
+    scrollTrigger: {
+        trigger: ".content",
+        toggleActions: "restart pause reverse pause",
+        start: "middle 70px",
+        end:"bottom 70px",
+        markers: true
+    },
+    y:"-100%",
+    ease:"none",
+    duration: 3
+
+});
+
+gsap.from("#about", {
+    scrollTrigger: {
+        trigger: ".headshot",
+        toggleActions: "restart pause reverse pause",
+        start: "top bottom",
+        end:"top center",
+        scrub: 2,
+        markers: false,
+    },
+    x:"-100%",
+    ease:"none",
+    duration: 0.5
+
+});
+*/
+AOS.init({
+    startEvent: 'load'
+})
 // get modularized html file
 function loadPage(pageURL) {
     if (document.getElementById("Content").innerHTML){ // we've checked a page after website intro
